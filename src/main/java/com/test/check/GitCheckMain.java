@@ -14,8 +14,10 @@ public class GitCheckMain {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		Thread.sleep(3000);
+		NewClass nkl = new NewClass();
+		nkl.bkl(driver);
 		
-		driver.close();
+;		driver.close();
 		driver.quit();
 		
 	}
