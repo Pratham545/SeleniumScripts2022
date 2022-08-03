@@ -10,8 +10,8 @@ public class GitCheckMain {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+	WebDriver driver =	WebDriverManager.chromedriver().create();
+		
 		driver.get("https://www.google.com/");
 		Thread.sleep(3000);
 		NewClass nkl = new NewClass();
